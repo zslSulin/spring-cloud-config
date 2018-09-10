@@ -6,7 +6,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/zslSulin
+          uri: https://github.com/zslSulin/spring-cloud-config/tree/master/config-files
           username: zsldeyou@126.com
           password: password.1/2
 
