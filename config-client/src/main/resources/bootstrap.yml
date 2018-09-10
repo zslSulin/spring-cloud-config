@@ -5,3 +5,8 @@ spring:
       uri: localhost:8001
       name: application
       profile: test
+      enabled: true
+  application:
+    name: config-client
+server:
+  port: 8002
