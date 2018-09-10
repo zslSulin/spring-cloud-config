@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      label: master
+      uri: localhost:8001
+      name: application
+      profile: test
