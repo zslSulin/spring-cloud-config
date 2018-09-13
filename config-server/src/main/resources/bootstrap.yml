@@ -3,13 +3,18 @@ server:
 
 spring:
   cloud:
-      config:
-        server:
-          git:
-            uri: https://github.com/zslSulin/spring-cloud-config
-            search-paths: config-files/config
-            username: zsldeyou@126.com
-            password: password.1/2
-            default-label: master
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        register: true
+    config:
+      server:
+        git:
+          uri: https://github.com/zslSulin/spring-cloud-config
+          search-paths: config-files/config
+          username: zsldeyou@126.com
+          password: password.1/2
+          default-label: master
   application:
     name: config-server
