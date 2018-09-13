@@ -26,3 +26,10 @@
 /mvnw.cmd
 /mvnw
 /src/test/
+/*.gitattributes
+.idea
+.idea
+/config-files/*.iml
+.mvn
+/config-server/*.cmd
+/config-server/mvnw
