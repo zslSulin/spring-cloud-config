@@ -33,3 +33,5 @@
 .mvn
 /config-server/*.cmd
 /config-server/mvnw
+test
+test
