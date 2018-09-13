@@ -6,11 +6,10 @@ spring:
       config:
         server:
           git:
-            uri: https://github.com/zslSulin/spring-cloud-config/
+            uri: https://github.com/zslSulin/spring-cloud-config
             search-paths: config-files/config
             username: zsldeyou@126.com
             password: password.1/2
-            timeout: 50
-        label: master
+            default-label: master
   application:
     name: config-server

@@ -2,7 +2,7 @@ spring:
   cloud:
     config:
       label: master
-      uri: https://localhost:8001/
+      uri: http://localhost:8001/
       name: application
       profile: test
       enabled: true
