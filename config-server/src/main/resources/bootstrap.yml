@@ -2,6 +2,11 @@ server:
   port: 8001
 
 spring:
+  rabbitmq:
+    host: 192.168.200.128
+    port: 5672
+    username: root
+    password: root
   cloud:
     consul:
       host: localhost
@@ -16,5 +21,15 @@ spring:
           username: zsldeyou@126.com
           password: password.1/2
           default-label: master
+    bus:
+      enabled: true
+      trace:
+        enabled: true
   application:
     name: config-server
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
