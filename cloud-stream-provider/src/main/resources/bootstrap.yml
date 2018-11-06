@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:8001/
+      name: application
+      profile: test
+      enabled: true
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        register: true
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+    stream:
+      bindings:
+        input:
+          destination: raw-sensor-data
+
+  rabbitmq:
+    host: 192.168.200.128
+    port: 5672
+    username: root
+    password: root
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info

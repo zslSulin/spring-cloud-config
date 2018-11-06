@@ -25,17 +25,3 @@
 /.nb-gradle/
 /mvnw.cmd
 /mvnw
-/src/test/
-/*.gitattributes
-.idea
-.idea
-/config-files/*.iml
-.mvn
-/config-server/*.cmd
-/config-server/mvnw
-test
-test
-/cloud-stream-provider/mvnw.cmd
-/cloud-stream-provider/mvnw
-/cloud-stream-consumer/mvnw.cmd
-/cloud-stream-consumer/mvnw
